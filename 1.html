@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>微信扫即可</title>
+    <title>图片排版示例</title>
     <style>
         body {
             display: flex;
@@ -10,16 +10,25 @@
             height: 100vh;
         }
 
-        img {
+        .image-container {
             max-width: 30%;
+        }
+
+        img {
+            width: 100%;
             height: auto;
         }
     </style>
 </head>
 <body>
-    <img src="resource/bawangcan/1.jpg" alt="小蚕">
-    <img src="resource/bawangcan/2.jpg" alt="歪卖">
-    <img src="resource/bawangcan/3.jpg" alt="晓晓">
-    <img src="resource/bawangcan/4.jpg" alt="饿小美">
+    <div class="image-container">
+        <img src="resource/bawangcan/1.jpg" alt="图片1">
+    </div>
+    <div class="image-container">
+        <img src="image2.jpg" alt="图片2">
+    </div>
+    <div class="image-container">
+        <img src="image3.jpg" alt="图片3">
+    </div>
 </body>
 </html>
